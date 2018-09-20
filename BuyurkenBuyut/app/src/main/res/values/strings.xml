@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BuyurkenBuyut</string>
+    <string name="ad">ADIN</string>
+    <string name="soyad">SOYADIN</string>
+    <string name="sifre">ŞİFRE</string>
+    <string name="giris">GİRİŞ</string>
+    <string name="kaydol">KAYDOL</string>
+    <string name="bitkiAdi">BİTKİ ADI</string>
+    <string name="bitkiTuru">BİTKİ TÜRÜ</string>
+    <string name="devam">DEVAM</string>
+    <string name="title_activity_bitki_turu_sec">BitkiTuruSec</string>
+</resources>

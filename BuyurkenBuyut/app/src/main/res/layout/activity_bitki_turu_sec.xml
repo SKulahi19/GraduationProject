@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bitki_sec_arkaplan"
+    tools:context="com.example.kulahi.buyurkenbuyut.BitkiTuruSec">
+
+    <Button
+        android:layout_width="89dp"
+        android:layout_height="79dp"
+        android:id="@+id/fasulye"
+        android:background="@drawable/fasulye"
+        android:onClick="onClickBitkiTuruSec"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <Button
+        android:layout_width="78dp"
+        android:layout_height="85dp"
+        android:id="@+id/sarimsak"
+        android:background="@drawable/sarimsak"
+        android:onClick="onClickBitkiTuruSec"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.728"
+        app:layout_constraintVertical_bias="0.285" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="87dp"
+        android:onClick="onClickBitkiTuruSec"
+        android:id="@+id/feslegen"
+        android:background="@drawable/feslegen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintVertical_bias="0.561" />
+
+    <Button
+        android:layout_width="93dp"
+        android:layout_height="92dp"
+        android:onClick="onClickBitkiTuruSec"
+        android:id="@+id/cilek"
+        android:background="@drawable/cilek"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintVertical_bias="0.556" />
+
+    <Button
+        android:layout_width="89dp"
+        android:layout_height="75dp"
+        android:onClick="onClickBitkiTuruSec"
+        android:id="@+id/havuc"
+        android:background="@drawable/havuc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintVertical_bias="0.83" />
+
+    <Button
+        android:layout_width="87dp"
+        android:layout_height="82dp"
+        android:onClick="onClickBitkiTuruSec"
+        android:id="@+id/maydanoz"
+        android:background="@drawable/maydanoz"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.706"
+        app:layout_constraintVertical_bias="0.827" />
+
+
+
+</android.support.constraint.ConstraintLayout>
